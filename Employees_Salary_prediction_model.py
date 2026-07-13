@@ -3,6 +3,7 @@ import numpy as np
 import datetime 
 from sklearn.ensemble import GradientBoostingRegressor
 import streamlit as st
+import joblib
 
 def main():
     html_temp = """<h1>Salary Prediction</h1>"""

@@ -7,8 +7,7 @@ import streamlit as st
 def main():
     html_temp = """<h1>Salary Prediction</h1>"""
     
-    model = GradientBoostingRegressor()
-    model.joblib.load("employees_salary_predictor")
+    model = joblib.load("employees_salary_predictor")
 
     st.markdown(html_temp, unsafe_allow_html = True)
 

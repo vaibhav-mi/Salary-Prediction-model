@@ -8,7 +8,7 @@ def main():
     html_temp = """<h1>Salary Prediction</h1>"""
     
     model = GradientBoostingRegressor()
-    model.joblib.load("xgb_model.pkl")
+    model.joblib.load("employees_salary_predictor")
 
     st.markdown(html_temp, unsafe_allow_html = True)
 

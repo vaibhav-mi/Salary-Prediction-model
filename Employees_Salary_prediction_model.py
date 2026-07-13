@@ -34,7 +34,7 @@ def main():
         p3 = 0
 
 
-    p4 = st.number_input("Please enter experience years", 0, 70.0, step=1.0)
+    p4 = st.number_input("Please enter experience years", 0.0, 70.0, step=1.0)
     
     s3 = st.selectbox("Please select your Department", [ 'Operations','IT','Finance','Sales','HR','Marketing'])
     if s3=="Operations":
@@ -68,7 +68,7 @@ def main():
 
     p8 = st.slider("Give your Certifications",0,10,step=1)
 
-    p9 = st.number_input("Please enter Overtime Hours", 0, 70.0, step=1.0)
+    p9 = st.number_input("Please enter Overtime Hours", 0.0, 70.0, step=1.0)
 
     s5 = st.selectbox("Please select remote or not", ["Yes", "No"])
     if s5=="Yes":
@@ -90,11 +90,11 @@ def main():
     elif s6=="Delhi":
         p11 = 5
 
-    p12 = st.number_input("Please enter your Company Tenure", 0.0, 15.0, step=1)
+    p12 = st.number_input("Please enter your Company Tenure", 0.0, 15.0, step=1.0)
     
-    p13 = st.number_input("Please enter Project completed", 0.0, 40.0, step=1)
+    p13 = st.number_input("Please enter Project completed", 0.0, 40.0, step=1.0)
     
-    p14 = st.number_input("Please enter your Skill rating", 50.0, 200.0, step=1)
+    p14 = st.number_input("Please enter your Skill rating", 50.0, 200.0, step=1.0)
 
 
     data_new = pd.DataFrame({

@@ -57,7 +57,7 @@ TEAL = "#12A783"
 TEAL_LIGHT = "#E3F5EF"
 DIM_WARM = "#F4DFC9"
 
-st.set_page_config(page_title="Payday", page_icon="\u2728", layout="wide")
+st.set_page_config(page_title="Payday - Salary Predictor", page_icon="\u2728", layout="wide")
 
 
 @st.cache_resource
@@ -256,7 +256,7 @@ inject_css()
 
 st.markdown("""
 <div class="eyebrow-chip">\u2728 Gradient boosting &middot; 14-factor model</div>
-<h1 class="ledger-title">Payday</h1>
+<h1 class="ledger-title">Payday - Salary Predictor</h1>
 <p class="ledger-subhead">Fill in a profile and watch your estimate come alive &mdash;
 the number, its breakdown, and the scenarios all update instantly as you go.</p>
 <hr class="ledger-rule">
